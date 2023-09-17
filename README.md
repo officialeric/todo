@@ -1,0 +1,3 @@
+# SIMPLE TODO APPLICATION USING PHP OOP WITH PDO CNNECTION
+
+created and maintained bt Erc Ernst
