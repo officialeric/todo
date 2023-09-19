@@ -2,6 +2,7 @@
 global $todos;
 include ('../partials/header.php');
 include ('../classes/selectData.classes.php');
+
 ?>
 
 <form action="../includes/addTodo.inc.php" method="post">
@@ -28,8 +29,8 @@ include ('../classes/selectData.classes.php');
     <p><?=$todo['todos_detail']?></p>
     <small><?=$todo['time']?></small>
     <div>
-        <button>edit</button>
-        <button>erase</button>
+        <a href="../includes/editData.inc.php?todo_id=<?=$todo['todos_id']?>"><button>edit</button></a>
+        <a href="../includes/eraseData.inc.php?todo_id=<?=$todo['todos_id']?>"><button>erase</button></a>
     </div>
 </div>
 <?php endforeach ?>
