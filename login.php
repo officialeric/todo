@@ -17,6 +17,8 @@ include ('partials/header.php');
 
     <div>
         <input type="submit" value="login" name="login">
+        Don't have account? <a href="index.php">Sign Up</a>
+
     </div>
 </form>
 
