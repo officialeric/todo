@@ -8,5 +8,6 @@ class selectData extends  Dbh {
     }
 }
 
+#instantiating selectData class
 $todo = new selectData();
 $todos = $todo->selectAll();
